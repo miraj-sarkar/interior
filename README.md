@@ -1,70 +1,170 @@
-# Getting Started with Create React App
+# Yoga Wellness Instructor Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive web application for a Yoga and Wellness Instructor built with React.js, Tailwind CSS, and Firebase.
+
+## Features
+
+- 🧘‍♀️ Class booking system
+- 👤 User authentication
+- 📱 Responsive design
+- 🎨 Modern UI with animations
+- 📝 Blog section
+- 📞 Contact form
+- ⭐ Testimonials
+- 🔒 Protected routes
+- 🔄 Real-time updates
+
+## Tech Stack
+
+- React.js
+- Tailwind CSS
+- Firebase (Authentication & Firestore)
+- Framer Motion
+- React Router
+- React Icons
+- React Calendar
+
+## Prerequisites
+
+- Node.js (v14 or higher)
+- Yarn (v1.22.0 or higher)
+- Firebase account
+- Git
+
+## Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/yoga-wellness-instructor-app.git
+cd yoga-wellness-instructor-app
+```
+
+### 2. Install Dependencies
+
+```bash
+yarn install
+```
+
+### 3. Set Up Firebase
+
+1. Create a new Firebase project at [Firebase Console](https://console.firebase.google.com/)
+2. Enable Authentication with Email/Password and Google sign-in methods
+3. Create a Firestore database
+4. Get your Firebase configuration from Project Settings
+5. Create a `.env` file in the root directory with the following variables:
+
+```env
+REACT_APP_FIREBASE_API_KEY=your_api_key
+REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
+REACT_APP_FIREBASE_PROJECT_ID=your_project_id
+REACT_APP_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+REACT_APP_FIREBASE_APP_ID=your_app_id
+```
+
+### 4. Start Development Server
+
+```bash
+yarn start
+```
+
+The app will be available at [http://localhost:3000](http://localhost:3000)
 
 ## Available Scripts
 
-In the project directory, you can run:
+- `yarn start` - Runs the app in development mode
+- `yarn build` - Builds the app for production
+- `yarn test` - Launches the test runner
+- `yarn eject` - Ejects from Create React App
 
-### `npm start`
+## Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+src/
+├── components/
+│   ├── auth/         # Authentication components
+│   ├── layout/       # Layout components (Navbar, Footer)
+│   └── ui/           # Reusable UI components
+├── contexts/         # React contexts
+├── firebase/         # Firebase configuration
+├── pages/           # Page components
+├── styles/          # Global styles
+└── utils/           # Utility functions
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Deployment
 
-### `npm test`
+### Option 1: Deploy to Firebase Hosting
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Install Firebase CLI:
+```bash
+yarn global add firebase-tools
+```
 
-### `npm run build`
+2. Login to Firebase:
+```bash
+firebase login
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Initialize Firebase:
+```bash
+firebase init
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Build the project:
+```bash
+yarn build
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Deploy to Firebase:
+```bash
+firebase deploy
+```
 
-### `npm run eject`
+### Option 2: Deploy to Vercel
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Install Vercel CLI:
+```bash
+yarn global add vercel
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Deploy:
+```bash
+vercel
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Option 3: Deploy to Netlify
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Install Netlify CLI:
+```bash
+yarn global add netlify-cli
+```
 
-## Learn More
+2. Deploy:
+```bash
+netlify deploy
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Analyzing the Bundle Size
+## Support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+For support, email support@yogawell.com or join our Slack channel.
 
-### Making a Progressive Web App
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [React Documentation](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Firebase Documentation](https://firebase.google.com/docs)
+- [Framer Motion](https://www.framer.com/motion/)
