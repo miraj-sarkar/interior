@@ -18,6 +18,15 @@
 .env.test.local
 .env.production.local
 
+# yarn specific
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
