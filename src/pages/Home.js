@@ -134,7 +134,7 @@ const Home = () => {
       description:
         "High-end finishes and custom details for discerning clients",
       image:
-        "https://images.unsplash.com/photo-1600607687644-c7f34b5e0f01?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        "https://media.istockphoto.com/id/1432543179/photo/light-kitchen-interior-with-bar-countertop-and-seats-shelves-and-panoramic-window.webp?a=1&b=1&s=612x612&w=0&k=20&c=7_5tNdL30347BdLGiPbrakwQyDMTK1lB03-x9X71a04=",
       duration: "16 weeks",
       type: "Residential",
     },
