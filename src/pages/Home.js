@@ -6,52 +6,54 @@ import { FaLeaf, FaHeart, FaBrain, FaPeace } from "react-icons/fa";
 const instagramFeed = [
   {
     id: 1,
-    imageUrl: "https://images.unsplash.com/photo-1506126613408-eca07ce68773",
-    caption: "Morning flow in our sunlit studio 🧘‍♀️✨ #MorningYoga #YogaLife",
+    imageUrl: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace",
+    caption:
+      "Modern living room transformation with natural light ✨ #InteriorDesign #ModernLiving",
     likes: 234,
     comments: 18,
     link: "https://instagram.com/p/xyz123",
   },
   {
     id: 2,
-    imageUrl: "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0",
+    imageUrl: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6",
     caption:
-      "Join our upcoming meditation workshop this weekend 🌿 #Meditation #InnerPeace",
+      "Minimalist kitchen design with sustainable materials 🌿 #SustainableDesign #KitchenInspo",
     likes: 187,
     comments: 12,
     link: "https://instagram.com/p/xyz124",
   },
   {
     id: 3,
-    imageUrl: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b",
+    imageUrl: "https://images.unsplash.com/photo-1600210492493-0946911123ea",
     caption:
-      "Mastering the warrior pose with our advanced class 💪 #YogaPose #Strength",
+      "Luxurious master bedroom retreat with custom headboard 💫 #BedroomDesign #LuxuryInteriors",
     likes: 326,
     comments: 24,
     link: "https://instagram.com/p/xyz125",
   },
   {
     id: 4,
-    imageUrl: "https://images.unsplash.com/photo-1591228127791-8e2eaef098d3",
+    imageUrl: "https://images.unsplash.com/photo-1616137466211-f939a420be84",
     caption:
-      "Peaceful vibes in our evening restorative session 🌙 #RestorativeYoga #Peace",
+      "Cozy home office setup for the modern professional 🖥️ #HomeOffice #WorkFromHome",
     likes: 289,
     comments: 15,
     link: "https://instagram.com/p/xyz126",
   },
   {
     id: 5,
-    imageUrl: "https://images.unsplash.com/photo-1516939884455-1445c8652f83",
-    caption: "Group meditation in the garden 🌺 #OutdoorYoga #Community",
+    imageUrl: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+    caption:
+      "Outdoor living space design with custom fire pit 🔥 #OutdoorLiving #PatioDesign",
     likes: 412,
     comments: 32,
     link: "https://instagram.com/p/xyz127",
   },
   {
     id: 6,
-    imageUrl: "https://images.unsplash.com/photo-1545205597-3d9d02c29597",
+    imageUrl: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
     caption:
-      "New beginners class starting next week! 🌟 #YogaForBeginners #StartYourJourney",
+      "Bathroom renovation with spa-inspired features 🛁 #BathroomDesign #SpaInspired",
     likes: 156,
     comments: 21,
     link: "https://instagram.com/p/xyz128",
@@ -62,76 +64,79 @@ const Home = () => {
   const benefits = [
     {
       icon: FaLeaf,
-      title: "Natural Healing",
+      title: "Sustainable Design",
       description:
-        "Connect with nature and find your inner balance through mindful practices.",
+        "Eco-friendly materials and energy-efficient solutions for environmentally conscious living.",
     },
     {
       icon: FaHeart,
-      title: "Physical Wellness",
+      title: "Personalized Spaces",
       description:
-        "Improve flexibility, strength, and overall physical health.",
+        "Custom designs that reflect your unique personality and lifestyle needs.",
     },
     {
       icon: FaBrain,
-      title: "Mental Clarity",
-      description: "Enhance focus, reduce stress, and achieve mental peace.",
+      title: "Functional Solutions",
+      description: "Optimize your space for maximum functionality and comfort.",
     },
     {
       icon: FaPeace,
-      title: "Inner Peace",
-      description: "Discover tranquility and harmony within yourself.",
+      title: "Timeless Elegance",
+      description:
+        "Designs that remain beautiful and relevant for years to come.",
     },
   ];
 
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: "Yoga Student",
+      name: "Mike Johnson",
+      role: "Homeowner",
       image:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      text: "The classes have transformed my life. I feel more balanced and centered than ever before.",
+        "https://media.istockphoto.com/id/1949501832/photo/handsome-hispanic-senior-business-man-with-crossed-arms-smiling-at-camera-indian-or-latin.jpg?s=2048x2048&w=is&k=20&c=nA6_fHYssGdzGF5GHu_l0Y8yVli4ndT4mV-WRPxarlk=",
+      text: "The design team transformed our house into a home. Their attention to detail and understanding of our needs exceeded our expectations.",
     },
     {
       name: "Michael Chen",
-      role: "Wellness Enthusiast",
+      role: "Business Owner",
       image:
         "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      text: "The instructor's expertise and calming presence make every session truly special.",
+      text: "Our office redesign has improved productivity and impressed our clients. The team's expertise in commercial spaces is unmatched.",
     },
     {
-      name: "Emma Davis",
-      role: "Meditation Practitioner",
+      name: "Mike Chen",
+      role: "Real Estate Developer",
       image:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      text: "I've found my spiritual home here. The community is welcoming and supportive.",
+        "https://media.istockphoto.com/id/1143032875/photo/keep-your-desire-for-success-greater-than-your-fear-for-failure.jpg?s=612x612&w=0&k=20&c=x1mqhnFuImVkZ10svVwXixskAuo7BwaumDPh7EmDZL0=",
+      text: "I've worked with many designers, but this team consistently delivers exceptional results that increase property values.",
     },
   ];
 
-  const featuredClasses = [
+  const featuredProjects = [
     {
-      title: "Vinyasa Flow",
-      description: "Dynamic sequences linking breath with movement",
+      title: "Modern Minimalist",
+      description: "Clean lines and functional spaces for contemporary living",
       image:
-        "https://images.unsplash.com/photo-1603988363607-e1e4a66962c6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-      duration: "60 min",
-      level: "All Levels",
+        "https://images.unsplash.com/photo-1600210492493-0946911123ea?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+      duration: "8 weeks",
+      type: "Residential",
     },
     {
-      title: "Meditation & Mindfulness",
-      description: "Guided sessions for inner peace and mental clarity",
+      title: "Corporate Office",
+      description:
+        "Productive workspaces that inspire creativity and collaboration",
       image:
-        "https://images.unsplash.com/photo-1591228127791-8e2eaef098d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-      duration: "45 min",
-      level: "Beginner",
+        "https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+      duration: "12 weeks",
+      type: "Commercial",
     },
     {
-      title: "Power Yoga",
-      description: "Strengthen your body and mind through challenging poses",
+      title: "Luxury Renovation",
+      description:
+        "High-end finishes and custom details for discerning clients",
       image:
-        "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-      duration: "75 min",
-      level: "Intermediate",
+        "https://images.unsplash.com/photo-1600607687644-c7f34b5e0f01?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+      duration: "16 weeks",
+      type: "Residential",
     },
   ];
 
@@ -141,8 +146,8 @@ const Home = () => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-            alt="Yoga in nature"
+            src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+            alt="Modern interior design"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-transparent"></div>
@@ -152,9 +157,9 @@ const Home = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="inline-block px-6 py-2 border-2 border-green-400 rounded-full text-green-400 text-sm md:text-base mb-6"
+            className="inline-block px-6 py-2 border-2 border-blue-400 rounded-full text-blue-400 text-sm md:text-base mb-6"
           >
-            Welcome to Your Wellness Journey
+            Welcome to Your Design Journey
           </motion.span>
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -162,8 +167,8 @@ const Home = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-5xl md:text-7xl font-bold mb-6 leading-tight"
           >
-            Transform Your Life Through{" "}
-            <span className="text-green-400">Yoga</span>
+            Transform Your Space With{" "}
+            <span className="text-blue-400">Design</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -171,8 +176,8 @@ const Home = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto"
           >
-            Discover inner peace, physical strength, and mental clarity through
-            our expert-led yoga and wellness classes.
+            Create beautiful, functional environments that reflect your unique
+            style and enhance your quality of life.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -182,15 +187,15 @@ const Home = () => {
           >
             <Link
               to="/booking"
-              className="btn-primary text-lg px-8 py-4 rounded-full bg-green-500 hover:bg-green-600 transition-all"
+              className="btn-primary text-lg px-8 py-4 rounded-full bg-blue-500 hover:bg-blue-600 transition-all"
             >
-              Start Your Journey
+              Start Your Project
             </Link>
             <Link
               to="/classes"
               className="btn-secondary text-lg px-8 py-4 rounded-full border-2 border-white hover:bg-white hover:text-gray-900 transition-all"
             >
-              Explore Classes
+              Explore Services
             </Link>
           </motion.div>
         </div>
@@ -234,10 +239,10 @@ const Home = () => {
             className="text-center mb-16"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              The Benefits of Yoga & Wellness
+              The Benefits of Professional Interior Design
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Experience the transformative power of yoga and wellness practices
+              Experience the transformative power of thoughtful, expert design
             </p>
           </motion.div>
 
@@ -251,7 +256,7 @@ const Home = () => {
                 viewport={{ once: true }}
                 className="text-center p-6 rounded-lg bg-gray-50 hover:bg-gray-100 transition-colors duration-300"
               >
-                <benefit.icon className="w-12 h-12 mx-auto mb-4 text-primary-600" />
+                <benefit.icon className="w-12 h-12 mx-auto mb-4 text-blue-600" />
                 <h3 className="text-xl font-semibold mb-2">{benefit.title}</h3>
                 <p className="text-gray-600">{benefit.description}</p>
               </motion.div>
@@ -260,7 +265,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* New Featured Classes Section */}
+      {/* Featured Projects Section */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <motion.div
@@ -271,17 +276,17 @@ const Home = () => {
             className="text-center mb-16"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Featured Classes
+              Featured Projects
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Join our most popular yoga and wellness sessions
+              Explore our most impressive interior design transformations
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {featuredClasses.map((class_, index) => (
+            {featuredProjects.map((project, index) => (
               <motion.div
-                key={class_.title}
+                key={project.title}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: index * 0.2 }}
@@ -290,17 +295,17 @@ const Home = () => {
               >
                 <div className="aspect-w-16 aspect-h-9">
                   <img
-                    src={class_.image}
-                    alt={class_.title}
+                    src={project.image}
+                    alt={project.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent p-6 flex flex-col justify-end text-white">
-                  <h3 className="text-2xl font-bold mb-2">{class_.title}</h3>
-                  <p className="text-gray-200 mb-4">{class_.description}</p>
+                  <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
+                  <p className="text-gray-200 mb-4">{project.description}</p>
                   <div className="flex justify-between items-center">
-                    <span className="text-green-400">{class_.duration}</span>
-                    <span className="text-green-400">{class_.level}</span>
+                    <span className="text-blue-400">{project.duration}</span>
+                    <span className="text-blue-400">{project.type}</span>
                   </div>
                 </div>
               </motion.div>
@@ -320,11 +325,11 @@ const Home = () => {
             className="text-center mb-16"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              What Our Students Say
+              What Our Clients Say
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Join our community of satisfied students who have transformed
-              their lives
+              Join our community of satisfied clients who have transformed their
+              spaces
             </p>
           </motion.div>
 
@@ -377,26 +382,26 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "Meditation Retreat",
+                title: "Interior Design Workshop",
                 date: "June 15-17, 2024",
                 image:
-                  "https://images.unsplash.com/photo-1516939884455-1445c8652f83?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+                  "https://media.istockphoto.com/id/2093686198/photo/digitally-staged-open-concept-living-space.jpg?s=2048x2048&w=is&k=20&c=NgzF10XyDs4ZppBJsXIVZ8cnPQExazPw0KmWoynwxv0=",
                 price: "$299",
                 spots: "5 spots left",
               },
               {
-                title: "Yoga Teacher Training",
+                title: "Sustainable Design Seminar",
                 date: "July 1-30, 2024",
                 image:
-                  "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+                  "https://cdn.pixabay.com/photo/2017/03/28/12/16/tables-2181979_640.jpg",
                 price: "$1,999",
                 spots: "3 spots left",
               },
               {
-                title: "Mindfulness Workshop",
+                title: "Luxury Interiors Talk",
                 date: "June 25, 2024",
                 image:
-                  "https://images.unsplash.com/photo-1591228127791-8e2eaef098d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+                  "https://media.istockphoto.com/id/2093684615/photo/digitally-created-spacious-modern-living-room.jpg?s=612x612&w=0&k=20&c=nMASk6C34x5Y-hr6d0vIUuUBvBkwA98XiUJm1cOheK4=",
                 price: "$99",
                 spots: "10 spots left",
               },
@@ -415,7 +420,7 @@ const Home = () => {
                     alt={event.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
-                  <div className="absolute top-4 right-4 bg-green-500 text-white px-4 py-1 rounded-full text-sm">
+                  <div className="absolute top-4 right-4 bg-blue-500 text-white px-4 py-1 rounded-full text-sm">
                     {event.spots}
                   </div>
                 </div>
@@ -423,10 +428,10 @@ const Home = () => {
                   <h3 className="text-xl font-bold mb-2">{event.title}</h3>
                   <p className="text-gray-600 mb-4">{event.date}</p>
                   <div className="flex justify-between items-center">
-                    <span className="text-green-600 font-semibold">
+                    <span className="text-blue-600 font-semibold">
                       {event.price}
                     </span>
-                    <button className="px-4 py-2 rounded-full bg-green-500 text-white hover:bg-green-600 transition-colors">
+                    <button className="px-4 py-2 rounded-full bg-blue-500 text-white hover:bg-blue-600 transition-colors">
                       Register Now
                     </button>
                   </div>
@@ -448,46 +453,46 @@ const Home = () => {
             className="text-center mb-16"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Meet Our Expert Instructors
+              Meet Our Expert Designers
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Learn from our experienced and certified yoga teachers
+              Learn from our experienced and certified interior designers
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
-                name: "Sarah Johnson",
-                role: "Vinyasa Flow Expert",
+                name: "Mike Johnson",
+                role: "Senior Designer",
                 image:
-                  "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+                  "https://cdn.pixabay.com/photo/2016/12/13/17/48/master-1904748_640.jpg",
                 experience: "10+ years",
               },
               {
                 name: "Michael Chen",
-                role: "Meditation Guide",
+                role: "Lead Designer",
                 image:
                   "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
                 experience: "8 years",
               },
               {
-                name: "Emma Davis",
-                role: "Power Yoga Instructor",
+                name: "David Hume",
+                role: "Design Consultant",
                 image:
-                  "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+                  "https://plus.unsplash.com/premium_photo-1689977968861-9c91dbb16049?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWFufGVufDB8fDB8fHww",
                 experience: "12 years",
               },
               {
                 name: "David Wilson",
-                role: "Mindfulness Coach",
+                role: "Interior Architect",
                 image:
                   "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
                 experience: "15 years",
               },
-            ].map((instructor, index) => (
+            ].map((designer, index) => (
               <motion.div
-                key={instructor.name}
+                key={designer.name}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: index * 0.2 }}
@@ -496,15 +501,15 @@ const Home = () => {
               >
                 <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden">
                   <img
-                    src={instructor.image}
-                    alt={instructor.name}
+                    src={designer.image}
+                    alt={designer.name}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                 </div>
-                <h3 className="text-xl font-bold mb-2">{instructor.name}</h3>
-                <p className="text-green-600 mb-2">{instructor.role}</p>
+                <h3 className="text-xl font-bold mb-2">{designer.name}</h3>
+                <p className="text-blue-600 mb-2">{designer.role}</p>
                 <p className="text-gray-600">
-                  {instructor.experience} experience
+                  {designer.experience} experience
                 </p>
               </motion.div>
             ))}
@@ -523,10 +528,10 @@ const Home = () => {
             className="text-center mb-16"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Weekly Class Schedule
+              Weekly Project Schedule
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Find the perfect class for your schedule
+              Find the perfect project for your schedule
             </p>
           </motion.div>
 
@@ -535,53 +540,61 @@ const Home = () => {
               {[
                 {
                   day: "Monday",
-                  classes: [
+                  projects: [
                     {
                       time: "7:00 AM",
-                      name: "Morning Flow",
-                      instructor: "Sarah",
+                      name: "Modern Minimalist",
+                      designer: "Sarah",
                     },
                     {
                       time: "12:00 PM",
-                      name: "Power Yoga",
-                      instructor: "Emma",
+                      name: "Luxury Renovation",
+                      designer: "Emma",
                     },
                     {
                       time: "6:00 PM",
-                      name: "Gentle Yoga",
-                      instructor: "Michael",
+                      name: "Cozy Home Office",
+                      designer: "Michael",
                     },
                   ],
                 },
                 {
                   day: "Wednesday",
-                  classes: [
+                  projects: [
                     {
                       time: "8:00 AM",
-                      name: "Vinyasa Flow",
-                      instructor: "David",
+                      name: "Minimalist Kitchen",
+                      designer: "David",
                     },
                     {
                       time: "1:00 PM",
-                      name: "Meditation",
-                      instructor: "Michael",
+                      name: "Outdoor Living Space",
+                      designer: "Michael",
                     },
-                    { time: "5:30 PM", name: "Yin Yoga", instructor: "Sarah" },
+                    {
+                      time: "5:30 PM",
+                      name: "Bathroom Renovation",
+                      designer: "Sarah",
+                    },
                   ],
                 },
                 {
                   day: "Friday",
-                  classes: [
-                    { time: "7:30 AM", name: "Power Flow", instructor: "Emma" },
+                  projects: [
+                    {
+                      time: "7:30 AM",
+                      name: "Master Bedroom",
+                      designer: "Emma",
+                    },
                     {
                       time: "12:30 PM",
-                      name: "Mindfulness",
-                      instructor: "David",
+                      name: "Corporate Office",
+                      designer: "David",
                     },
                     {
                       time: "6:30 PM",
-                      name: "Restorative",
-                      instructor: "Sarah",
+                      name: "Outdoor Living Space",
+                      designer: "Sarah",
                     },
                   ],
                 },
@@ -598,18 +611,18 @@ const Home = () => {
                     {schedule.day}
                   </h3>
                   <div className="space-y-4">
-                    {schedule.classes.map((class_) => (
+                    {schedule.projects.map((project) => (
                       <div
-                        key={class_.time}
+                        key={project.time}
                         className="flex items-center justify-between p-3 rounded-lg hover:bg-gray-50"
                       >
                         <div>
-                          <p className="font-semibold">{class_.name}</p>
+                          <p className="font-semibold">{project.name}</p>
                           <p className="text-sm text-gray-600">
-                            with {class_.instructor}
+                            with {project.designer}
                           </p>
                         </div>
-                        <span className="text-green-600">{class_.time}</span>
+                        <span className="text-blue-600">{project.time}</span>
                       </div>
                     ))}
                   </div>
@@ -620,7 +633,7 @@ const Home = () => {
           <div className="text-center mt-8">
             <Link
               to="/schedule"
-              className="inline-block px-8 py-3 rounded-full bg-green-500 text-white hover:bg-green-600 transition-colors"
+              className="inline-block px-8 py-3 rounded-full bg-blue-500 text-white hover:bg-blue-600 transition-colors"
             >
               View Full Schedule
             </Link>
@@ -642,35 +655,35 @@ const Home = () => {
               Latest from Our Blog
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Insights and tips for your wellness journey
+              Insights and tips for your design journey
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: "Benefits of Morning Yoga Practice",
+                title: "Benefits of Sustainable Design",
                 excerpt:
-                  "Discover why practicing yoga in the morning can transform your entire day...",
+                  "Discover why sustainable design is essential for a healthy environment...",
                 image:
-                  "https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-                category: "Yoga Practice",
+                  "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace",
+                category: "Design Philosophy",
               },
               {
-                title: "Mindfulness in Daily Life",
+                title: "Personalization in Interior Design",
                 excerpt:
-                  "Learn how to incorporate mindfulness into your daily routine...",
+                  "Learn how personalization can make your space truly unique...",
                 image:
-                  "https://images.unsplash.com/photo-1591228127791-8e2eaef098d3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-                category: "Mindfulness",
+                  "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace",
+                category: "Design Philosophy",
               },
               {
-                title: "Nutrition for Yogis",
+                title: "The Importance of Functionality",
                 excerpt:
-                  "The best foods to support your yoga practice and overall wellness...",
+                  "The role of functionality in creating a comfortable and productive space...",
                 image:
-                  "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-                category: "Nutrition",
+                  "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace",
+                category: "Design Philosophy",
               },
             ].map((post, index) => (
               <motion.article
@@ -687,18 +700,18 @@ const Home = () => {
                     alt={post.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
-                  <div className="absolute top-4 left-4 bg-green-500 text-white px-3 py-1 rounded-full text-sm">
+                  <div className="absolute top-4 left-4 bg-blue-500 text-white px-3 py-1 rounded-full text-sm">
                     {post.category}
                   </div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold mb-2 group-hover:text-green-600 transition-colors">
+                  <h3 className="text-xl font-bold mb-2 group-hover:text-blue-600 transition-colors">
                     {post.title}
                   </h3>
                   <p className="text-gray-600 mb-4">{post.excerpt}</p>
                   <Link
                     to="/blog"
-                    className="text-green-600 hover:text-green-700 font-medium inline-flex items-center"
+                    className="text-blue-600 hover:text-blue-700 font-medium inline-flex items-center"
                   >
                     Read More
                     <svg
@@ -736,7 +749,7 @@ const Home = () => {
               Follow Us on Instagram
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              @yogawellness - Join our community of{" "}
+              @interiordesign - Join our community of{" "}
               {instagramFeed.reduce((acc, post) => acc + post.likes, 0)}+
               followers
             </p>
@@ -795,10 +808,10 @@ const Home = () => {
 
           <div className="text-center mt-10">
             <a
-              href="https://instagram.com/yogawellness"
+              href="https://instagram.com/interiordesign"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-6 py-3 border-2 border-green-500 text-green-500 rounded-full hover:bg-green-500 hover:text-white transition-colors duration-300"
+              className="inline-flex items-center justify-center px-6 py-3 border-2 border-blue-500 text-blue-500 rounded-full hover:bg-blue-500 hover:text-white transition-colors duration-300"
             >
               <span className="mr-2">Follow Us on Instagram</span>
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -810,7 +823,7 @@ const Home = () => {
       </section>
 
       {/* Updated CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-green-400 to-green-600 text-white">
+      <section className="py-20 bg-gradient-to-r from-blue-400 to-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -820,17 +833,17 @@ const Home = () => {
             className="max-w-3xl mx-auto"
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Ready to Start Your Wellness Journey?
+              Ready to Start Your Design Project?
             </h2>
             <p className="text-xl mb-8">
-              Join our community and experience the transformative power of yoga
-              and wellness
+              Join our community and experience the transformative power of
+              design
             </p>
             <Link
               to="/booking"
-              className="btn-secondary text-lg px-8 py-4 inline-block rounded-full bg-white text-green-800 hover:bg-green-100 transition-all"
+              className="btn-secondary text-lg px-8 py-4 inline-block rounded-full bg-white text-blue-800 hover:bg-blue-100 transition-all"
             >
-              Book Your First Class
+              Book Your First Project
             </Link>
           </motion.div>
         </div>

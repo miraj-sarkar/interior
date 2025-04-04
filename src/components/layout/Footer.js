@@ -1,33 +1,36 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
-import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import React from "react";
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   const socialLinks = [
-    { icon: FaFacebook, href: 'https://facebook.com' },
-    { icon: FaInstagram, href: 'https://instagram.com' },
-    { icon: FaTwitter, href: 'https://twitter.com' },
-    { icon: FaYoutube, href: 'https://youtube.com' },
+    { icon: FaFacebook, href: "https://facebook.com" },
+    { icon: FaInstagram, href: "https://instagram.com" },
+    { icon: FaTwitter, href: "https://twitter.com" },
+    { icon: FaYoutube, href: "https://youtube.com" },
   ];
 
   const footerLinks = {
-    'Quick Links': [
-      { name: 'Home', path: '/' },
-      { name: 'About', path: '/about' },
-      { name: 'Classes', path: '/classes' },
-      { name: 'Contact', path: '/contact' },
+    "Quick Links": [
+      { name: "Home", path: "/" },
+      { name: "About", path: "/about" },
+      { name: "Services", path: "/classes" },
+      { name: "Contact", path: "/contact" },
     ],
-    'Services': [
-      { name: 'Private Sessions', path: '/classes#private' },
-      { name: 'Group Classes', path: '/classes#group' },
-      { name: 'Workshops', path: '/classes#workshops' },
-      { name: 'Retreats', path: '/classes#retreats' },
+    Services: [
+      { name: "Residential Design", path: "/classes#residential" },
+      { name: "Commercial Design", path: "/classes#commercial" },
+      { name: "Sustainable Design", path: "/classes#sustainable" },
+      { name: "Consultations", path: "/classes#consultations" },
     ],
-    'Contact': [
-      { name: 'Email: info@yogawell.com', href: 'mailto:info@yogawell.com' },
-      { name: 'Phone: (555) 123-4567', href: 'tel:5551234567' },
-      { name: 'Address: 123 Yoga Street', href: '#' },
+    Contact: [
+      {
+        name: "Email: info@interiordesign.com",
+        href: "mailto:info@interiordesign.com",
+      },
+      { name: "Phone: (555) 123-4567", href: "tel:5551234567" },
+      { name: "Address: 123 Design Avenue", href: "#" },
     ],
   };
 
@@ -37,9 +40,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand Section */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">YogaWell</h3>
+            <h3 className="text-2xl font-bold mb-4">Interior Elegance</h3>
             <p className="text-gray-400 mb-4">
-              Transform your mind and body through the power of yoga and wellness.
+              Transform your space into a beautiful, functional environment that
+              reflects your unique style and personality.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social, index) => (
@@ -62,7 +66,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              {footerLinks['Quick Links'].map((link) => (
+              {footerLinks["Quick Links"].map((link) => (
                 <li key={link.name}>
                   <Link
                     to={link.path}
@@ -79,7 +83,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Services</h4>
             <ul className="space-y-2">
-              {footerLinks['Services'].map((link) => (
+              {footerLinks["Services"].map((link) => (
                 <li key={link.name}>
                   <Link
                     to={link.path}
@@ -96,7 +100,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <ul className="space-y-2">
-              {footerLinks['Contact'].map((link) => (
+              {footerLinks["Contact"].map((link) => (
                 <li key={link.name}>
                   <a
                     href={link.href}
@@ -114,7 +118,8 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} YogaWell. All rights reserved.
+              © {new Date().getFullYear()} Interior Elegance. All rights
+              reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link
@@ -137,4 +142,4 @@ const Footer = () => {
   );
 };
 
-export default Footer; 
+export default Footer;
